@@ -29,6 +29,7 @@ import {
   User,
   TrendingUp,
   Heart,
+  MessageSquare,
 } from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
@@ -81,9 +82,14 @@ const menuItems = [
     icon: Heart,
   },
   {
-    title: "AI Insights",
-    url: "/dashboard/ai-optimization",
+    title: "AI Analytics",
+    url: "/dashboard/ai-analytics",
     icon: Brain,
+  },
+  {
+    title: "AI Assistant",
+    url: "/dashboard/ai-chatbot",
+    icon: MessageSquare,
   },
   {
     title: "Settings",
